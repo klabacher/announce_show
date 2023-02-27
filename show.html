@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Linkin Park</title>
+    <style>
+        body {
+            background-color: #DDDDDD;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            scroll-behavior: smooth;
+            overflow: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header a {
+            color: #000000;
+            text-decoration: none;
+        }
+        button {
+            width: 18.5vw;
+            display: block;
+            margin: 0 auto;
+            border: 0.204vw solid #000000;
+            font-size: var(--button-fs);
+            line-height: calc(3.490vw - 0.408vw);
+            height: 3.49vw;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            height: 400px;
+            margin: 50px;
+            padding: 20px;
+            background-image: url("linkin.jpg");
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            color: #DDDDDD;
+        }
+        .title {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+        .title h2 {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+        }
+        .details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .details p {
+            font-size: 20px;
+        }
+        footer {
+            margin: 30px;
+            padding: 10px;
+            justify-content: center;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Show imperdivel do Linkin Park</h3>        
+        <a href="/">Quem nós somos?</a>
+        <a href="/">Contato</a>
+    </header>
+    <div class="container">
+        <div class="title">
+            <h1>Linkin Park </h1>
+            <h2> Em São José Dos Campos</h2>
+        </div>        
+        <div class="details">
+            <p>Dia: <b>10/03/23 ás 10h</b> GMT3</p>
+            <p>Lugar: Sunset Palace</p>
+            <button>Quero um ingresso</button>
+        </div>
+    </div>
+    <footer>
+        Feito com ❤️ por João Vitor Klabacher Carvalho
+    </footer>
+</body>
+</html>
